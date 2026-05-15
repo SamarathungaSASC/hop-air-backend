@@ -55,8 +55,3 @@ CREATE TABLE IF NOT EXISTS lesson (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT fk_lesson_course FOREIGN KEY (course_id) REFERENCES course(id) ON DELETE CASCADE
 );
-
--- Create MySQL user with restricted permissions
--- Run as root: CREATE USER IF NOT EXISTS 'hopair_user'@'localhost' IDENTIFIED BY 'fkfkf';
--- GRANT ALL PRIVILEGES ON hopair_db.* TO 'hopair_user'@'localhost';
--- FLUSH PRIVILEGES;
