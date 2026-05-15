@@ -202,4 +202,4 @@ The JAR file will be created in the `target/` directory.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This repository currently does not specify a license.
